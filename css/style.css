@@ -64,24 +64,61 @@ a:hover{
 }
 
 /*Styling the main content*/
-main{
-    border: 1px solid black;
-}
+
 
 section{
-    border: 1px solid black;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2%;
 }
 
+
+
 img{
-    width: 25%;
+    width: 22%;
+    margin-left: 4%;
+}
+
+/*Styling the form*/
+form{
+    width: 50%;
 }
 
 input{
+    margin: 3%;
     width: 100%;
     border-radius: 10px;
+    padding: 2%;
+}
+
+.main-div-link{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4%;
+    
+    width: 30%;
+}
+
+.link{
+    padding: 2%;
+    margin-left: 2%;
+    background-color: rgb(245, 238, 238); 
+    /*border: 1px solid black;*/
+}
+
+.link:hover{
+    border: 1px solid lightgrey;
+}
+
+.languages{
+    padding: 2%;
+    margin-left: 2.7%;
+}
+
+#id-languages{
+    color: blue;
 }
 
 /*Styling the footer*/
