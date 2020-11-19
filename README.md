@@ -1,1 +1,5 @@
-For this mini-project, i will deconstruct an the google web page and rebuild it.
+For this mini-project, i built the google web page the google.
+
+This is my first project with the Odin project and i used flexbox to built it.
+I tried to use the semantics tags (header, footer, nav, section etc.) like i learned on the freeCodeCamp curriculum.
+
