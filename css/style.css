@@ -86,11 +86,15 @@ form{
     width: 50%;
 }
 
-input{
+input[type="text"]{
     margin: 3%;
     width: 100%;
     border-radius: 10px;
     padding: 2%;
+}
+
+#search:hover{
+    box-shadow: 2px -2px 2px 2px lightgrey;
 }
 
 .main-div-link{
@@ -102,7 +106,7 @@ input{
 }
 
 .link{
-    padding: 2%;
+    padding: 3%;
     margin-left: 2%;
     background-color: rgb(245, 238, 238); 
     /*border: 1px solid black;*/
