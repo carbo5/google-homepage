@@ -25,7 +25,7 @@ ul{
    
 }
 li{
-    /*border: 1px solid black;*/
+    
     list-style-type: none;
     margin-left: 2%;
     margin-right: 1%;
@@ -101,7 +101,6 @@ input[type="text"]{
     display: flex;
     justify-content: space-around;
     margin-left: 4%;
-    
     width: 30%;
 }
 
@@ -109,7 +108,7 @@ input[type="text"]{
     padding: 3%;
     margin-left: 2%;
     background-color: rgb(245, 238, 238); 
-    /*border: 1px solid black;*/
+    border-radius: 5px;
 }
 
 .link:hover{
@@ -128,9 +127,22 @@ input[type="text"]{
 /*Styling the footer*/
 footer{
     /*padding: 1%;*/
+    
     background-color: #f2f2f2;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+#footer-top{
+    padding: 1%;
+}
+
+.text-color-footer{
+    color: rgb(99, 99, 99);
+}
+
+hr{
+    border: 1px solid rgb(99, 99, 99);
 }
