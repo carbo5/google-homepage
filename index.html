@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/14a817ff05.js" crossorigin="anonymous"></script>
     <title>Google</title>
 </head>
 <body>
@@ -28,7 +29,16 @@
         <section>
             <img src="./img/googlelogo.png" alt="google's logo">
             <form action="#">
-                <input id="search" type="text">
+                <div class="input-icons">
+                    <span>
+                        <i class="fa fa-search"></i>
+                    </span>
+                    <input id="search" type="text" placeholder="">
+                    <span>
+                        <i class="fa fa-microphone"></i>
+                    </span>
+                </div>
+                
             </form>
             <div class="main-div-link">
                 <a class="link" href="#">Google search</a>
