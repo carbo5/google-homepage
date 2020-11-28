@@ -88,6 +88,7 @@ form{
 
 .input-icons{
     position: relative;
+    color: #A9A9A9;
 }
 
 input[type="text"]{
